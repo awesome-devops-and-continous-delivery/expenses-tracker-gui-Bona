@@ -1,0 +1,8 @@
+name: Echo something
+on: [push]
+jobs:
+    pippo: 
+        runs-on: ubuntu-latest
+        steps:
+            -name: Echo
+            -run: echo "Doveva anda cosi"
