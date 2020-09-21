@@ -5,7 +5,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
         - uses: actions/checkout@master
-        with:
+          with:
             ref: refs/heads/master
-        - name: Echo
+        - name: echo a sentence form a great driver
           run: echo "Doveva anda cosi"
